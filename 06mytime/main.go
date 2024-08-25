@@ -1,0 +1,5 @@
+package mytime
+
+func main(){
+	
+}
