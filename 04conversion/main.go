@@ -17,7 +17,7 @@ func main() {
 	input, _ := reader.ReadString('\n')
 	// fmt.Println("Rating",input)
 
-	numRate, err := strconv.ParseFloat(strings.TrimSpace(input),64)
+	numRate, err := strconv.ParseFloat(strings.TrimSpace(input),64)// because it takes "\n" also
 
 	if err != nil {
 		fmt.Println(err)
